@@ -6,5 +6,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/test', function () {
-    echo 'Muhammad Mridul Hosen Kibria';
+    return ['Name: "Mridul", Age => 21'];
 });
